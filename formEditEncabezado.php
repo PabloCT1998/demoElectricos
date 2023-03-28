@@ -76,7 +76,7 @@ $requisicion = $_SESSION['requisicion'][$num]['encabezado'];
           <select class="form-select" aria-label="Default select example" name="vendedor">
                 <option value="">Vendedor</option>
                 <option value="Sebastian Colina">Sebastian Colina</option>
-                <option value="Ricardo Fernandez">Diana Hernandez</option>
+                <option value="Ricardo Fernandez">Ricardo Fernandez</option>
                 <option value="Arantza Bernal">Sebastian Bernal</option>
             </select>
         </div>
@@ -115,7 +115,7 @@ $requisicion = $_SESSION['requisicion'][$num]['encabezado'];
             <select class="form-select" aria-label="Default select example" name="estatusReq" >
                 <option value="">Estatus Requisición</option>
                 <option value="Registrado">Registrado</option>
-                <option value="Procesado">Procesad</option>
+                <option value="Procesado">Procesado</option>
                 <option value="Colocado">Colocado</option>
                 <option value="Surtido">Surtido</option>
                 <option value="Registrado">Cancelado</option>
