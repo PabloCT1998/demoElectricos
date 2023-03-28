@@ -4,8 +4,6 @@ session_start();
 
 $numReq = $_SESSION['indexReq'];
 $numP = $_SESSION['indexP'];
-print_r($_POST['cantidad']);
-// print_r($_SESSION['requisicion'][$numReq]['partida'][$numP]['cantidad']);
 editarPartida($numReq, $numP);
 function editarPartida($numReq, $numP){
     if(llaveDefinida('cantidad', $_POST)){
