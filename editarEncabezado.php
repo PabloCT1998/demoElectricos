@@ -3,7 +3,6 @@ include ('includes/funciones.php');
 session_start();
 
 $numReq = $_SESSION['indexReq'];
-print_r($_SESSION['requisicion'][$numReq]['encabezado']);
 
 editarReq($numReq);
 function editarReq($numReq){
